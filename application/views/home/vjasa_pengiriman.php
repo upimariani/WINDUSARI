@@ -335,6 +335,8 @@
                 }
             });
         });
+
+        
         $("select[name=paket]").on("change", function() {
             //menampilkan ongkir
             var dataongkir = $("option:selected", this).attr('ongkir');
